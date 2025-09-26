@@ -1,0 +1,28 @@
+# AI Text to Image Generator Requirements
+# Core dependencies for Stable Diffusion
+
+# Main libraries
+diffusers>=0.34.0
+transformers>=4.53.0
+accelerate>=1.8.1
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Hugging Face integration
+huggingface-hub>=0.27.0
+safetensors>=0.3.1
+
+# Image processing and display
+Pillow>=11.2.1
+matplotlib>=3.7.0
+numpy>=2.0.2
+
+# Utilities
+tqdm>=4.67.1
+requests>=2.32.3
+packaging>=20.0
+filelock>=3.18.0
+fsspec>=2023.5.0
+
+# Optional: For better performance
+# xformers  # Uncomment if you have compatible hardware
